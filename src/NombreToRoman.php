@@ -2,12 +2,14 @@
 
 class NombreToRoman
 {
-    public static function decimalToRoman():string
+    public static function decimalToRoman($d):string
     {
         $r = "";
-        if($r == 1){
-            $r = "I";
+        for($i = 0 ; $i < $d; $i++){
+            return $r .= "I";
         }
+        
+        
         return $r;
     }
     
